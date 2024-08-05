@@ -35,7 +35,7 @@ public:
     void operator=(const ftxui::Component& component);
     operator ftxui::Component();
 
-private:
+protected:
 
     ftxui::Component m_component;
 
